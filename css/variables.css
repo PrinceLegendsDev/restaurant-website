@@ -1,0 +1,213 @@
+/*====================================
+    TYPOGRAPHY
+====================================*/
+
+:root {
+
+    --font-primary: "Inter", sans-serif;
+    --font-heading: "Poppins", sans-serif;
+    --font-code: "Fira Code", monospace;
+
+
+    /* Font Sizes */
+    --fs-xs: .75rem;       /* 12px */
+    --fs-sm: .875rem;      /* 14px */
+    --fs-base: 1rem;       /* 16px */
+    --fs-md: 1.125rem;     /* 18px */
+    --fs-lg: 1.25rem;      /* 20px */
+    --fs-xl: 1.5rem;       /* 24px */
+    --fs-2xl: 2rem;        /* 32px */
+    --fs-3xl: 2.5rem;      /* 40px */
+    --fs-4xl: 3rem;        /* 48px */
+
+
+    /* Font Weight */
+    --fw-light: 300;
+    --fw-regular: 400;
+    --fw-medium: 500;
+    --fw-semibold: 600;
+    --fw-bold: 700;
+
+
+    /* Line Height */
+    --lh-tight: 1.2;
+    --lh-normal: 1.5;
+    --lh-relaxed: 1.8;
+
+}
+:root {
+    --color-nav-bg: #111;
+    ---color-body-dark: #000814;
+    ---color-body-light: #e5e5e5;
+    ---color-highlight: #475569;
+    ---color-accent:  #2563EB;
+    ---color-sub: #D97706;
+    ---color-accent2: #7C3AED;
+}
+/*====================================
+    SPACING
+====================================*/
+
+:root {
+
+    --space-1: .25rem;     /* 4px */
+    --space-2: .5rem;      /* 8px */
+    --space-3: .75rem;     /* 12px */
+    --space-4: 1rem;       /* 16px */
+    --space-5: 1.25rem;    /* 20px */
+    --space-6: 1.5rem;     /* 24px */
+    --space-8: 2rem;       /* 32px */
+    --space-10: 2.5rem;    /* 40px */
+    --space-12: 3rem;      /* 48px */
+    --space-16: 4rem;      /* 64px */
+    --space-20: 5rem;      /* 80px */
+    --space-24: 6rem;      /* 96px */
+
+}
+/*====================================
+    LAYOUT SPACING
+====================================*/
+
+:root {
+
+    --container-width: 1200px;
+
+    --container-padding-mobile: 1rem;
+    --container-padding-tablet: 2rem;
+    --container-padding-desktop: 3rem;
+
+
+    --section-padding-mobile: 4rem;
+    --section-padding-desktop: 6rem;
+
+}
+/*====================================
+    BORDER RADIUS
+====================================*/
+
+:root {
+
+    --radius-sm: .25rem;      /* 4px */
+    --radius-md: .5rem;       /* 8px */
+    --radius-lg: .75rem;      /* 12px */
+    --radius-xl: 1rem;        /* 16px */
+
+    --radius-pill: 999px;     /* buttons */
+    --radius-circle: 50%;     /* profile images/icons */
+
+}
+/*====================================
+    SHADOWS
+====================================*/
+
+:root {
+
+    /* Small elements */
+    --shadow-sm:
+    0 2px 8px rgba(0,0,0,0.05);
+
+
+    /* Cards */
+    --shadow-md:
+    0 6px 16px rgba(0,0,0,0.08);
+
+
+    /* Large floating elements */
+    --shadow-lg:
+    0 12px 30px rgba(0,0,0,0.12);
+
+
+    /* Navigation / sticky elements */
+    --shadow-nav:
+    0 4px 12px rgba(0,0,0,0.08);
+
+}
+/*====================================
+    TRANSITIONS
+====================================*/
+
+:root {
+
+    --transition-fast: .2s ease;
+
+    --transition-normal: .3s ease;
+
+    --transition-slow: .5s ease;
+
+}
+/*====================================
+    Z-INDEX
+====================================*/
+
+:root {
+
+    --z-base: 1;
+
+    --z-dropdown: 100;
+
+    --z-sticky: 200;
+
+    --z-navbar: 300;
+
+    --z-overlay: 400;
+
+    --z-modal: 500;
+
+    --z-loader: 1000;
+
+}
+/*====================================
+    NAVIGATION
+====================================*/
+
+:root {
+
+    --nav-height:70px;
+
+    --nav-width-mobile:280px;
+
+}
+/*====================================
+    IMAGES
+====================================*/
+
+:root {
+
+    /* Profile */
+    --profile-size-mobile:150px;
+    --profile-size-desktop:220px;
+
+
+    /* Icons */
+    --icon-sm:16px;
+    --icon-md:24px;
+    --icon-lg:32px;
+    --icon-xl:48px;
+
+
+    /* Project images */
+    --project-image-height:220px;
+
+}
+/*====================================
+    BUTTONS
+====================================*/
+
+:root {
+
+    --btn-height-sm:36px;
+
+    --btn-height-md:44px;
+
+    --btn-height-lg:52px;
+
+
+    --btn-padding-x:0.9rem;
+
+
+    --btn-radius:var(--radius-pill);
+
+
+    --btn-font-weight:var(--fw-semibold);
+
+}
