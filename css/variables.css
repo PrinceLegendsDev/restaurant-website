@@ -36,13 +36,14 @@
 
 }
 :root {
-    --color-nav-bg: #111;
+    --color-nav-bg: #001014;
     ---color-body-dark: #000814;
-    ---color-body-light: #e5e5e5;
+    ---color-body-light: #f8F8F8;
     ---color-highlight: #475569;
     ---color-accent:  #2563EB;
     ---color-sub: #D97706;
-    ---color-accent2: #7C3AED;
+    ---color-accent2: #e5e;
+    --color-accent3: #9C9C9C;
 }
 /*====================================
     SPACING

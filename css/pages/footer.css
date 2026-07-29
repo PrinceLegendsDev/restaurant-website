@@ -1,0 +1,32 @@
+.footer-brand {
+    color: var(---color-accent);
+    text-align: center;
+    font-family: var(--font-code);
+    margin-top: var(--space-4);
+}
+.footer {
+    background: var(--color-accent3);
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    padding-block: 3rem;
+    margin-top: var(--space-4);
+    border-radius: var(--space-5);
+}
+.quick-links ul{
+    margin-top: var(--space-1);
+}
+.contact {
+    margin-top: var(--space-4);
+    font-family: var(--font-code);
+}
+.footer-hrs {
+    margin-top: var(--space-4);
+}
+.footer-bottom {
+    margin-top: var(--space-2);
+    text-align: center;
+}
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: var(--space-3);
+}
