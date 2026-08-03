@@ -28,7 +28,6 @@
     --fw-semibold: 600;
     --fw-bold: 700;
 
-
     /* Line Height */
     --lh-tight: 1.2;
     --lh-normal: 1.5;
@@ -44,6 +43,7 @@
     ---color-sub: #D97706;
     ---color-accent2: #e5e;
     --color-accent3: #9C9C9C;
+    --color-highlight2: silver;
 }
 /*====================================
     SPACING

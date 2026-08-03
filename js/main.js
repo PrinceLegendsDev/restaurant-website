@@ -1,6 +1,12 @@
 import { loadComponent } from "./component.js";
-import { navMenu } from "./navigation.js";
+import { navMenu, toggleTheme } from "./navigation.js";
+import { renderMenu } from "./menu.js"
+import { formSubmission } from "./form.js"
+import { addToCart, updateCartCount } from "./cart.js";
+import { displayCart, cartControls, calculateTotal } from "./cartRender.js";
+import { checkout } from "./checkout.js";
 
+console.log("main.js loaded");
 
 async function startApp() {
 
@@ -14,7 +20,27 @@ async function startApp() {
         "components/footer.html"
     );
 
-    navMenu()
+    navMenu();
+
+    renderMenu();
+
+    addToCart();
+
+    displayCart();
+
+    cartControls();
+
+    calculateTotal();
+
+    checkout();
+
+    updateCartCount();
+
+    toggleTheme();
+
+    formSubmission();
+   
+
 }
 
 

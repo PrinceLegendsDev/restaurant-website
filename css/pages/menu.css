@@ -1,0 +1,45 @@
+.menu-grid {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-4);
+}
+.section-header {
+    font-family: var(--font-heading);
+    text-align: center;
+    color: var(--color-accent3);
+    font-weight: --fw-semibold;
+    font-size: var(--fs-xl);
+    margin-top: var(--space-3);
+}
+.menu-content {
+    font-family: var(--font-primary);
+    margin-top: var(--space-2);
+    font-weight: --fw-semibold;
+    color: blue;
+}
+.menu-content h3 {
+    font-family: var(--font-heading);
+    font-size: var(--space-6);
+    color: var(---color-body-dark);
+}
+.menu-footer .cart-btn {
+    border: none;
+    border-radius: var(--space-2);
+    font-size: var(--fs-md);
+    font-weight: --fw-semibold;
+    background-color: var(---color-highlight);
+    color: var(---color-body-light);
+}
+.menu-footer {
+    margin: 1rem 1rem;
+    text-align: center;
+}
+.menu-footer span {
+    font-size: var(--fs-md);
+    font-weight: --fw-semibold;
+}
+.menu-card img {
+    border-radius: var(--space-5);
+    height: 350px;
+}

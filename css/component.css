@@ -1,6 +1,12 @@
+.light-mode {
+    background-color: var(---color-highlight);
+    color: silver;
+    transition: .3s;
+} 
 body {
-    background-color: #F8F8F8;
-    color: #333333;
+    background-color: var(---color-body-dark);
+    color: var(---color-body-light);
+    transition: .3s;
 }
 .section-title {
     font-size: 2.5rem;
@@ -22,15 +28,20 @@ body {
 }
 .btn-primary {
     background-color: #D4A017;
-    color: #1E1E1E;
+    padding: var(--space-2);
+    cursor: pointer;
 }
 .btn-primary:hover {
     background-color: purple;
 }
 .btn-secondary {
     background: transparent;
-    background: silver;
-    color: #1E1E1E;
+    background: yellowgreen;
+    padding: var(--space-2);
+    cursor: pointer;
+}
+.btn-secondary:hover {
+    background-color: #0A2342;
 }
 .btn-secondary:active {
     background-color: grey;

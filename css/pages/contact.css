@@ -1,0 +1,48 @@
+.section-header h2{
+    font-family: var(--font-heading);
+    color: var(--color-highlight2);
+}
+.contact-infor {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-4);
+    margin-top: var(--space-2);
+}
+.contact-item {
+    font-family: var(--font-code);
+    padding: var(--space-2);
+}
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-4);
+    margin-top: var(--space-8);
+}
+.contact-form .input {
+    width: 100%;
+    height: var(--space-4);
+    font-size: var(--fs-lg);
+}
+.contact-form textarea {
+    width: 100%;
+    min-height: 160px;
+    padding: var(--space-4);
+    font: inherit;
+    line-height: 1.5;
+    resize: vertical;
+    box-sizing: border-box;
+    border-radius: var(--space-4);
+}
+ .contact-form button {
+    border-radius: var(--space-2);
+    font-size: var(--fs-md);
+    font-weight: var(--fw-semibold);
+    background-color: var(---color-accent);
+    color: var(--color-highlight2);
+    width: 100%;
+    max-width: 200px;
+ }
+ .form-btn {
+    display: flex;
+    justify-content: center;
+ }

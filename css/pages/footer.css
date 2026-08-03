@@ -4,12 +4,16 @@
     font-family: var(--font-code);
     margin-top: var(--space-4);
 }
+.footer-brand p{
+    font-family: var(--font-primary);
+    font-size: var(--fs-base);
+}
 .footer {
     background: var(--color-accent3);
     border-top: 1px solid rgba(255, 255, 255, 0.15);
     padding-block: 3rem;
     margin-top: var(--space-4);
-    border-radius: var(--space-5);
+    border-radius: 0;
 }
 .quick-links ul{
     margin-top: var(--space-1);
@@ -17,16 +21,24 @@
 .contact {
     margin-top: var(--space-4);
     font-family: var(--font-code);
+    color: var(---color-body-dark);
+    font-weight: var(--fw-semibold);
 }
 .footer-hrs {
     margin-top: var(--space-4);
+    color: var(---color-body-dark);
+    font-weight: var(--fw-semibold);
 }
 .footer-bottom {
     margin-top: var(--space-2);
     text-align: center;
 }
+.footer-bottom p {
+    color: var(---color-sub);
+}
 .social-links {
     display: flex;
     justify-content: center;
     gap: var(--space-3);
+    font-size: var(--space-5);
 }
