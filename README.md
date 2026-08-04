@@ -98,7 +98,7 @@ Good-Vibes-Restaurant/
 
 ### Homepage
 
-<img src="assets/home.jpg" alt="Good Vibes Restaurant homepage" />
+<img src="assets/homePic.png" alt="Good Vibes Restaurant homepage" />
 
 ### Menu Page
 
