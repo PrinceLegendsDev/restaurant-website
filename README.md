@@ -63,6 +63,7 @@ The application allows customers to explore available meals, add items to a shop
 
 ## 📂 Project Structure
 
+```text
 Good-Vibes-Restaurant/
 │
 ├── index.html
@@ -89,7 +90,7 @@ Good-Vibes-Restaurant/
 | |__ menuData.js
 | |__ navigation.js
 └── assets/
-
+```
 
 ---
 
@@ -97,21 +98,21 @@ Good-Vibes-Restaurant/
 
 ### Homepage
 
-<img src="assets/home.jpg>
+<img src="assets/home.jpg" alt="Good Vibes Restaurant homepage" />
 
 ### Menu Page
 
-<img src="assets/menuPage.jpeg>
+<img src="assets/menuPage.jpeg" alt="Restaurant menu page" />
 
 ### Shopping Cart
 
-<img src="assets/cartPage.jpeg>
+<img src="assets/cartPage.jpeg" alt="Shopping cart functionality" />
 
 ### Mobile Responsive View
 
-<img src="assets/mobileView.png>
+<img src="assets/mobileView.png" alt="Mobile responsive homepage" />
 
-<img src="assets/mobileMenu.png>
+<img src="assets/mobileMenu.png" alt="Mobile menu view" />
 
 ---
 
@@ -128,11 +129,17 @@ This project demonstrates how a small business can establish an online presence 
 
 ## 🚀 Deployment
 
+## 🚀 Deployment
+
 The application is deployed using:
 
 **Netlify**
 
----
+Deployment workflow:
+
+GitHub Repository → Netlify → Live Website
+
+Every update pushed to GitHub automatically triggers a new deployment.
 
 ## 👨‍💻 Developer
 
