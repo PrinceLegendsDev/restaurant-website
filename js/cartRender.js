@@ -1,4 +1,4 @@
-
+import { updateCartCount } from "./cart.js";
 
 export function displayCart() {
 
@@ -114,6 +114,9 @@ export function cartControls() {
 
                 item.quantity--;
 
+            }else  {
+
+                cart = cart.filter(item => item.id !==id );
             }
 
         }
@@ -134,6 +137,8 @@ export function cartControls() {
 
 
         displayCart();
+
+        updateCartCount();
 
     });
 
